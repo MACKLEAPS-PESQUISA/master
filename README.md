@@ -3,7 +3,7 @@ Repositório guia para os membros do **MackLeaps**.
 
 O desenvolvido dos projetos relacionados ao MackLeabs será centralizado dentro deste repositório.
 
-Antes de iniciar qualquer projeto e ou reposítório dentro desta organização uma **Issue** deve ser reportada antes, acompanhada da ATA da reunião que deu origem ao projeto ou uma simples justificativa para tal. É de interesse organizacional a documentação dos projetos realizados por este laboratório, então acompanhado ao **Issue** deve ser criada também, a medida da necessidade, uma página nesta **Wiki** especificando o trabalho que será realizado ou a lógica por de trás desse trabalho. 
+Antes de iniciar qualquer projeto e ou reposítório dentro desta organização uma [**Issue**](https://github.com/MACKLEAPS/master/issues) deve ser reportada antes, acompanhada da ATA da reunião que deu origem ao projeto ou uma simples justificativa para tal. É de interesse organizacional a documentação dos projetos realizados por este laboratório, então acompanhado ao **Issue** deve ser criada também, a medida da necessidade, uma página nesta [**Wiki**](https://github.com/MACKLEAPS/master/wiki) especificando o trabalho que será realizado ou a lógica por de trás desse trabalho. 
 
 A **Issue** deve ser reportada dentro desse repositório e preferencialmente linkando sua página na Wiki, como também os membros envolvidos. Se houver a necessidade de criar uma equipe (Team) para a realização do projeto em questão, a equipe deverá ser citada. 
 
