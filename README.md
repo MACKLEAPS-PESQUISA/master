@@ -102,13 +102,8 @@ pertinente e possível, utilize [auto-referências](https://help.github.com/arti
 issues e desenvolvedores, e mensagens com
 [palavras-chaves](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
-Material para estudos retirado [do repositório do Professor Calebe](https://github.com/Prof-Calebe/substituicao/blob/master/README.md).
+Material de referência retirado do [repositório do Professor Calebe](https://github.com/Prof-Calebe/substituicao/blob/master/README.md).
 
-### Simples comandos para o GitHub
 
-* Criação de hyperlinks:
-  ``` [Referência](Link-De-Referência)
-  ```
-  
 
 
