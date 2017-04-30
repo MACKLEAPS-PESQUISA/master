@@ -11,9 +11,9 @@ O andamento do projeto será supervisionado através dessa **Issue**, ou seja, q
 
 Em resumo, 
 
-1º Outros repositórios só poderão ser criados com base nas Issues reportadas neste repositório. Ou seja, este repositório funcionará como um catálogo dos projetos realizados pela organização MackLeaps. 
+* Outros repositórios só poderão ser criados com base nas Issues reportadas neste repositório. Ou seja, este repositório funcionará como um catálogo dos projetos realizados pela organização MackLeaps. 
 
-2º A Wiki servirá como parte da documentação dos projetos organizados por este repositório. 
+* A Wiki servirá como parte da documentação dos projetos organizados por este repositório. 
 
 
 ### Regras gerais para utilização dos repositórios GitHub. 
@@ -103,5 +103,12 @@ issues e desenvolvedores, e mensagens com
 [palavras-chaves](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
 Material para estudos retirado [do repositório do Professor Calebe](https://github.com/Prof-Calebe/substituicao/blob/master/README.md).
+
+### Simples comandos para o GitHub
+
+* Criação de hyperlinks:
+  ``` [Referência](Link-De-Referência)
+  ```
+  
 
 
