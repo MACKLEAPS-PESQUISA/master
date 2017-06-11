@@ -105,5 +105,35 @@ issues e desenvolvedores, e mensagens com
 Material de referência retirado do [repositório do Professor Calebe](https://github.com/Prof-Calebe/substituicao/blob/master/README.md).
 
 
+### Removendo uma Branch
+
+Após o merge de sua branch com a `dev` ou de qualquer outra branch em questão, vale a pena avaliar a utilidade daquela branch para com a evolução do repositório em geral, caso constatado que a mesma não é mais importante e que seu desenvolvimento acabou, pode valer a pena removê-la do repositório, afinal, já serviu para seu propósito e pode ser descartada. Isso pode facilitar na hora de avaliar o progresso do repositório e em geral, na manutenção do mesmo.
+
+Para isso, há duas questões que valem a pena se prestar atenção, sua `branch` local e sua `remote-branch`, ou seja, a versão desta branch que está disponível para que todos do repositório acessem. O processo de eliminação para ambas é diferente.
+
+## Branch Local
+
+Para remover sua `branch` local, apenas repita o seguinte processo, **atenção: Substitua ## pelo nome da sua branch**
+
+```bash
+$ git checkout dev
+$ git branch -d ##
+```
+* Caso a mesma acuse de não ter sofrido o merge, verifique sua importância novamente, constatado que a mesma pode ser realmente removida:
+
+```bash
+$ git checkout dev
+$ git branch -D ##
+```
+## Branch Remota
+
+Para remover sua `remote-branch`, apenas repita o seguinte processo, **atenção: Substitua ## pelo nome da sua branch**
+
+```bash
+$ git checkout dev
+$ git push origin --delete ##
+```
+
+* Isso irá atualizar o repositório remoto com a remoção da branch em questão. 
 
 
