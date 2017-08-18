@@ -67,7 +67,7 @@ Não se esqueça do '**;**' em todos os comandos SQL.
 Nós precisamos aplicar permissões de usuário para este novo usuário:
 
 ```bash
-$ GRANT ALL PRIVILEGES ON * . * TO 'mynewuser@localhost';
+$ GRANT ALL PRIVILEGES ON * . * TO 'mynewuser'@'localhost';
 ```
 e depois
 
