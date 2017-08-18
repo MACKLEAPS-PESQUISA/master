@@ -122,3 +122,9 @@ $ service mysql start
 ```
 
 deve servir para iniciar o **MySQL**
+
+
+Retirado de:
+[How To Install MySQL on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04)
+[How to Install and Use MySQL on Ubuntu 16.04](https://www.fullstackpython.com/blog/install-mysql-ubuntu-1604.html)
+
