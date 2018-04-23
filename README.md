@@ -136,4 +136,53 @@ $ git push origin --delete ##
 
 * Isso irá atualizar o repositório remoto com a remoção da branch em questão. 
 
+### Removendo Untracked Files
 
+De tempos em tempos você irá precisar remover alguns arquivos não monitorados pelo `git`, seja porque você os adicionou por acidente ou fazem parte de algum teste, quem sabe até algum arquivo de configuração que você não sabe de onde veio, nesse caso, há duas opções:
+
+* Você pode removê-lo manualmente, e isso pode ser indolor, caso seja um arquivo isolado, mas a dificuldade pode se escalar rápido caso sejam vários arquivos.
+* Ou você pode usar alguns comandos `git` para realizar essa tarefa.
+
+Esse tipo de tarefa pode ser mais relevante ainda caso você esteja realizando um `pull` ou um `checkout` para outra `branch`, nesse caso, os arquivos não monitorados podem criar problemas. 
+
+Normalmente, aplicar um `stash` resolve, caso as mudanças apresentadas no repositório local existam dentro de um arquivo monitorado, mas em casos de arquivos não monitorados, você deve agir diferente.
+
+```bash
+$ git stash
+
+```
+Para arquivos não monitorados, há algumas formas:
+
+```bash
+$ git clean -n
+
+```
+
+* Listará todos os arquivos não monitorados, que seriam removidos.
+
+```bash
+$ git clean -f
+
+```
+ * Cuida de remover os mesmos arquivos listados anteriormente.
+
+O processo de remover diretórios inteiros, porém, é um pouco diferente: 
+
+```bash
+$ git clean -fd
+
+```
+* Para remover arquivos ignorados:
+
+```bash
+$ git clean -fX
+
+```
+* Para remover arquivos ignorados e não ignorados:
+
+```bash
+git clean -fx
+
+```
+
+Conteúdo retirado [daqui](https://stackoverflow.com/questions/61212/how-to-remove-local-untracked-files-from-the-current-git-working-tree)
