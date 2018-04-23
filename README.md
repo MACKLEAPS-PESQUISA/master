@@ -148,12 +148,6 @@ Esse tipo de tarefa pode ser mais relevante ainda caso você esteja realizando u
 Normalmente, aplicar um `stash` resolve, caso as mudanças apresentadas no repositório local existam dentro de um arquivo monitorado, mas em casos de arquivos não monitorados, você deve agir diferente.
 
 ```bash
-$ git stash
-
-```
-Para arquivos não monitorados, há algumas formas:
-
-```bash
 $ git clean -n
 
 ```
